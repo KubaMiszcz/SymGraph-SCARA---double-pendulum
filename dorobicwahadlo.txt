@@ -1,0 +1,29 @@
+zeby po stopie mozna bylo krecic manualnie
+???? reset kamery XY YZ XZ, razem z obortem UCS
+
+
+
+wczywaj plik --- kazdy tryb ot osobny przycisk --- wczytuje plik i ustawia nam tryb na odpowiedni
+--- u gory etyketa z rodzajjem aktywnego trybu
+
+
+
+
+
+
+*.vel2                                             *.vel3                                     (lub    *.kin2         *.kin3)
+            th1 th2 omg1 omg2                          th0 th1 th2 omg0  omg1 omg2
+            tu odstęp czasowy między klatkami deltaT liczony wg wzoru
+                   deltaTk=(thk[n]-thk[n-1])/(omg_k[n]=omgk[n-1])
+*.dyn2                                           *.dyn3 
+ t    th1 th2 omg1 omg2                          t    th0 th1 th2 omg0  omg1 omg2
+       tu odstęp czasowy deltaT=t[n]-t[n-1]
+*.tsk2                                            *.tsk3     (task- zadanie )
+ t    th1 th2 omg1 omg2  st_narz                        t    th0 th1 th2 omg0  omg1 omg2  st_narz
+
+
+Gdyby takie rozwiązanie było zbyt uciążliwe, to przygotowujemy jeden typ pliku w Matlabie 
+wypełniając zerami pozycje zbędne. Na podstawie tych zer program powinien rozpoznać jaki est typ danych i ustalić deltaT.
+
+Uważam, że ten program jest już wystarczająco zaawansowany. Tak, że mogę Pana zwolnić 
+z pisania testu zaliczeniowego. 
