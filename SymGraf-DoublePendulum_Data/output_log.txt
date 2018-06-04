@@ -15,7 +15,7 @@ Loading D:\Desktop\==unitygithub\SymGraph-SCARA---double-pendulum\SymGraf-Double
 Platform assembly: D:\Desktop\==unitygithub\SymGraph-SCARA---double-pendulum\SymGraf-DoublePendulum_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Desktop\==unitygithub\SymGraph-SCARA---double-pendulum\SymGraf-DoublePendulum_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Desktop\==unitygithub\SymGraph-SCARA---double-pendulum\SymGraf-DoublePendulum_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.240 seconds
+- Completed reload, in  0.054 seconds
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
@@ -23,4 +23,16 @@ desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initialized touch support.
 Platform assembly: D:\Desktop\==unitygithub\SymGraph-SCARA---double-pendulum\SymGraf-DoublePendulum_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 478c -> priority: 1 
+  Thread -> id: 3704 -> priority: 1 
+System.IO.StreamWriter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+System.IO.StreamWriter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+System.IO.StreamWriter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
